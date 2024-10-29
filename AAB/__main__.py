@@ -253,11 +253,11 @@ async def main() -> None :
     
 
     await file_client.start()
-    # await file_client.send_message(Vars['production_chat'],"File Bot Started")
+    await file_client.send_message(Vars['production_chat'],"File Bot Started")
     LOG.info('File Bot Started')
 
     await bot.start()
-    # await bot.send_message(Vars['production_chat'],"Main Bot Started")
+    await bot.send_message(Vars['production_chat'],"Main Bot Started")
     LOG.info('Main Bot Started')
 
     global bot_me 

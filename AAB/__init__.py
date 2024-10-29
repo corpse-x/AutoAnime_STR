@@ -44,14 +44,18 @@ except Exception as e :
 # You can change it As u want to but It should have 3 brackets.  || go to __main__.py and change it
     
 post_message = """
-🔸 {}
-➖〰️➖〰️➖〰️➖〰️➖〰️
-🔸 Episode - {}
-〰️➖〰️➖〰️➖〰️➖〰️➖
-🔸 Status - {}
-➖〰️➖〰️➖〰️➖〰️➖〰️
-🔸 Quality - Sub
-〰️➖〰️➖〰️➖〰️➖〰️➖
+▷ {} ◁
+╭───────────────╮
+┠ㅤ» Eᴘɪsᴏᴅᴇ - {}
+╰───────────────╯
+╭───────────────╮
+┠ㅤ» Sᴛʌᴛᴜs - {}
+╰───────────────╯
+╭───────────────╮
+┠ㅤ» Qᴜʌʟɪᴛʏ - Sub
+╰───────────────╯
+
+ㅤ「 @AnimePlaza_STR 」
 """
 
 
